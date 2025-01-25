@@ -1,11 +1,11 @@
-# <p align="center"> EKSHOP MARKETPLACE</p> 
+# <p align="center"> Fresh Hub MARKETPLACE</p> 
 
-> ### ekShop is a fully open-source eCommerce platform that is customizable and configurable to your needs.
+> ### Fresh Hub is a fully open-source eCommerce platform that is customizable and configurable to your needs.
 
 > ##### This repository is functionality complete. Pull requests and issues are welcome!
 ----------
 
-- [ EKSHOP MARKETPLACE](#-ekshop-marketplace)
+- [ Fresh Hub MARKETPLACE](#-Fresh Hub-marketplace)
 - [About](#about)
 - [Features](#features)
 - [Requirements](#requirements)
@@ -35,7 +35,7 @@
 
 
 # About
-ekShop is a fully open-source eCommerce platform that is customizable and configurable to your needs. It is completely free, adaptable and open to be supported by a worldwide community of volunteers and contributors. It’s free and open source nature allows users to maintain complete control of the data content and modify it as they wish and according to their needs. Our intended goal is to allow any potential entrepreneur to quickly get up and running with an online platform to sell goods online. 
+Fresh Hub is a fully open-source eCommerce platform that is customizable and configurable to your needs. It is completely free, adaptable and open to be supported by a worldwide community of volunteers and contributors. It’s free and open source nature allows users to maintain complete control of the data content and modify it as they wish and according to their needs. Our intended goal is to allow any potential entrepreneur to quickly get up and running with an online platform to sell goods online. 
 Some key features of Marketplace include:
 
 
@@ -56,11 +56,11 @@ Our platform is open to modifications by developers by its open source nature. W
 
 
 # Features
-- [Merchant Features](https://github.com/a2i-dpg/ekShop-doc/blob/master/merchant/MerchantFeatures.md)
-- [Admin Features](https://github.com/a2i-dpg/ekShop-doc/blob/master/admin/AdminFeature.md)
-- [Marketing Features](https://github.com/a2i-dpg/ekShop-doc/blob/master/admin/MarketingFeature.md)
-- [Product Features](https://github.com/a2i-dpg/ekShop-doc//blob/masteradmin/ProductFeature.md)
-- [Checkout Process](https://github.com/a2i-dpg/ekShop-doc/blob/master/marketplace/CheckoutProcess.md)
+- [Merchant Features](https://github.com/a2i-dpg/Fresh Hub-doc/blob/master/merchant/MerchantFeatures.md)
+- [Admin Features](https://github.com/a2i-dpg/Fresh Hub-doc/blob/master/admin/AdminFeature.md)
+- [Marketing Features](https://github.com/a2i-dpg/Fresh Hub-doc/blob/master/admin/MarketingFeature.md)
+- [Product Features](https://github.com/a2i-dpg/Fresh Hub-doc//blob/masteradmin/ProductFeature.md)
+- [Checkout Process](https://github.com/a2i-dpg/Fresh Hub-doc/blob/master/marketplace/CheckoutProcess.md)
 
 
 # Requirements
@@ -81,7 +81,7 @@ or
     #1st need to update composer itself
     composer self-update
     
-    git clone https://github.com/a2i-dpg/ekShop.git
+    git clone https://github.com/a2i-dpg/Fresh Hub.git
 
     import database (find DB in database folder)
     cp .env.example .env
@@ -95,7 +95,7 @@ or
 ## laragon user configuration
 - right click on the laragon window:
     - go to Apache > sites-enabled >  {eksho-dpg.test}.conf =>
-    - remove '/public' from "define ROOT "D:/laragon/www/ekshop-dpg-latest/public"
+    - remove '/public' from "define ROOT "D:/laragon/www/Fresh Hub-dpg-latest/public"
     - *Resstart Laragon
 
 ### Site URL Shoud Be Like
@@ -103,7 +103,7 @@ or
 or
 - http://www.dummy-host.com (FOr Real Domain Address)
 or
-- http://ekshop-dpg.test (For Laragon User)
+- http://Fresh Hub-dpg.test (For Laragon User)
 
 
 
@@ -263,7 +263,7 @@ composer -v
 ## <p align="center"> Compatibility and Upgrade Information </p>
 
 ### Upgrading to Laravel 8 & PHP 8
-This version of ekShop has been upgraded to utilize the features and improvements offered by Laravel 8 and PHP 8. Below are key considerations and steps to ensure compatibility and optimal functionality:
+This version of Fresh Hub has been upgraded to utilize the features and improvements offered by Laravel 8 and PHP 8. Below are key considerations and steps to ensure compatibility and optimal functionality:
 
 ### System Requirements
 - PHP: Version 8.0 or greater.
